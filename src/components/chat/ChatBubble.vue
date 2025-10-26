@@ -1,6 +1,6 @@
 <template>
 	<div v-if="itsMe" class="flex justify-end">
-		<div class="bg-blue-200 text-black p-2 rounded-lg max-w-xs">
+		<div class="bg-green-200 text-black p-2 rounded-lg max-w-xs">
 			{{ message }}
 		</div>
 	</div>

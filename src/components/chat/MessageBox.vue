@@ -8,7 +8,7 @@
 			@keypress.enter="sendMessage"
 		/>
 		<button
-			class="bg-blue-500 text-white rounded-full p-2 ml-2 hover:bg-blue-600 focus:outline-none"
+			class="bg-green-800 text-white rounded-full p-2 ml-2 hover:bg-green-700 focus:outline-none"
 			@click="sendMessage"
 		>
 			<svg
