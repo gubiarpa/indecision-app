@@ -1,5 +1,8 @@
 <template>
-	<div class="bg-white p-4 flex items-center">
+    <div
+      class="bg-white p-4 flex items-center sticky bottom-0 z-50 shadow-lg"
+      style="padding-bottom: calc(env(safe-area-inset-bottom) + 1rem)"
+    >
 		<input
 			type="text"
 			placeholder="Type your message..."
