@@ -1,5 +1,8 @@
 <template>
-	<div class="bg-white p-4 flex items-center">
+    <div
+      class="bg-white p-4 flex items-center sticky bottom-0 z-50 shadow-lg"
+      style="padding-bottom: calc(env(safe-area-inset-bottom) + 1rem)"
+    >
 		<input
 			type="text"
 			placeholder="Type your message..."
@@ -8,7 +11,7 @@
 			@keypress.enter="sendMessage"
 		/>
 		<button
-			class="bg-blue-500 text-white rounded-full p-2 ml-2 hover:bg-blue-600 focus:outline-none"
+			class="bg-green-800 text-white rounded-full p-2 ml-2 hover:bg-green-700 focus:outline-none"
 			@click="sendMessage"
 		>
 			<svg
